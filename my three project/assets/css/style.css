@@ -1,0 +1,310 @@
+@font-face{
+    font-family: testi;
+    src: url(../fonts/caps.ttf);
+}
+@font-face{
+    font-family: testiii;
+    src: url(../fonts/normal-bold.ttf)
+}
+body{
+margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+section ul li{
+    list-style: none; 
+}
+.container{
+    display: flex;
+    max-width: 1084px;
+    height: 60px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{ 
+    display: flex;
+    text-align: center;
+    max-width: 214px;
+    height: 16px;
+    justify-content: space-between;
+    font-family: testi;
+    font-size: 14px;
+}
+.meal{ 
+    margin-right: 44px;
+    color: #BADC58;
+}
+.meal1{
+    padding-right: 0px;
+    color: #181818;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.imige-2{
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: absolute;
+    top: 60px;
+    object-fit: cover;
+    z-index: -2;
+}
+main::after{
+    width: 100%;
+    height: calc(100vh - 60px); 
+    position: absolute;
+    content: "";
+    top: 60px;
+    opacity: 0.6;
+    z-index: -1;
+    background: #181818;
+}
+.front{
+    display: flex;
+    width: 692px;
+    height: 208px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+h1{
+    margin: 0 0 0 0;
+    width: 692px;
+    height: 58px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: testi;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+main p{
+    width: 301px;
+    height: 42px;
+    font-size: 14px;
+    color: white;
+    font-family: testiii;
+    text-align: center;
+    margin-bottom: 46px;
+    margin-top: 0px;
+}
+.main{
+    padding: 15px 47px 15px 47px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #BADC58;
+    color: #181818;
+    font-family: testi;
+    
+}
+.errow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    width: 76px;
+    height: 43px;
+    color: white;
+    font-family: testiii;
+    z-index: 3; 
+    margin-top: 35px;
+}
+.errow::after{
+    width: 17px;
+    height: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    content: "";
+    background-image: url(../media/img/tsaikhemse-assets/Arrow.svg);
+    color: white; 
+    z-index: 3; 
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container-2{
+    width: 1084px;
+    height: 1135px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    opacity: 2;
+}
+section::after{
+    position: absolute;
+    top: 485px ;
+    bottom: 1166px;
+    right: 0px;
+    width: 190px;
+    height: 230px;
+    background-image: url(../media/img/tsaikhemse-assets/basil_2.png);
+    content: "";
+    z-index: 5;
+    background-size: 305px 250px;
+    padding: 9px;
+}
+h2{
+    font-family: testi;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 41px;
+}
+.box-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 33%;
+    margin: 0px ;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img{
+    width: 250px;
+    height: 250px;
+    padding: 9px 29px 0 29px;
+}
+.box p{
+    width: 134px;
+    height: 29px;
+    font-size: 10px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: testiii;
+}
+.box h3{
+    width: 154px;
+    height: 37px;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: testi;
+    align-items: center;
+}
+.box button{
+    margin-top: 21px;
+    margin-bottom: 29px;
+}
+.box-2 button{
+    background: #BADC58;
+    color: #181818;
+}
+.box-3 button{
+    background: #ECF0F1;
+    color: #BDC3C7;
+    border: 1px solid #ECF0F1;
+}
+.box-1{
+    padding: 28px 0px 20px 35px;
+}
+.box-2{
+    padding: 28px 0px 20px 0px;
+}
+.box-3{
+    padding: 28px 35px 20px 0px;
+}
+.box-4{
+ padding: 28px 0px 20px 35px; ;
+}
+.box-5{
+    padding: 28px 0px 20px 0px;
+}
+.box-6{
+    padding: 28px 35px 20px 0px;
+}
+button{
+    width: 164px;
+    height: 46px;
+    border: 1px solid #BADC58;
+    border-radius: 10px;
+    color: #BADC58;
+    font-family: testi;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #292C2F;
+    z-index: -1;
+    margin-top: -60px;
+}
+.container-3::after{
+    position: absolute;
+    top: 1515px ;
+    bottom: 260px;
+    left: -109px;
+    width: 240px;
+    height: 145px;
+    background-image: url(../media/img/tsaikhemse-assets/basil_1.png);
+    content: "";
+    z-index: 0;
+    background-size: 407px 285px;
+}
+.adr{
+    align-content: center;
+    width: 1084px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 123px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.add{
+    width: 498px;
+    height: 16px;
+    margin: 22px 298px 22px 298px;
+    font-family: testi;
+    text-align: center;
+}
+.street{
+    margin-left: 0px;
+    color: #F59A63;
+}
+.number{
+    margin-right: 0px;
+    margin-left: 44px;
+    color: #F59A63;
+}
+.map iframe{
+    width: 1084px;
+    height: 290px;
+    border-radius: 20px; 
+}
+.item{ 
+    top: 524px;
+    width: 1084px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+.item .page{
+    width: 146px;
+    height: 35px;
+}
+.item .media {
+    display: flex;
+    justify-content: space-between;
+    width: 87px;
+    height: 20px;
+    align-content: center;
+}
+.item .card{
+    width: 101px;
+    height: 25px;
+}
+
